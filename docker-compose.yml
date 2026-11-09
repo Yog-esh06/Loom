@@ -1,0 +1,29 @@
+services:
+  api:
+    build:
+      context: ./backend
+    environment:
+      SECRET_KEY: ${SECRET_KEY:?Set SECRET_KEY in your environment}
+      DATABASE_URL: sqlite:////data/loom.db
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+    volumes:
+      - loom-data:/data
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')"]
+      interval: 20s
+      timeout: 5s
+      retries: 3
+  web:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:8000
+    ports:
+      - "5173:80"
+    depends_on:
+      api:
+        condition: service_healthy
+volumes:
+  loom-data:

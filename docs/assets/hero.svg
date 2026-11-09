@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="140" y1="80" x2="1295" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#F2F1EA"/><stop offset="1" stop-color="#E7EBE2"/></linearGradient>
+    <linearGradient id="paper" x1="476" y1="188" x2="1051" y2="572" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFDF8"/><stop offset="1" stop-color="#EDEBE2"/></linearGradient>
+    <linearGradient id="green" x1="407" y1="250" x2="662" y2="574" gradientUnits="userSpaceOnUse"><stop stop-color="#718A70"/><stop offset="1" stop-color="#405D48"/></linearGradient>
+    <linearGradient id="gold" x1="1018" y1="379" x2="1218" y2="568" gradientUnits="userSpaceOnUse"><stop stop-color="#D2B48D"/><stop offset="1" stop-color="#AA8359"/></linearGradient>
+    <linearGradient id="shadow" x1="719" y1="446" x2="720" y2="642" gradientUnits="userSpaceOnUse"><stop stop-color="#556450" stop-opacity=".2"/><stop offset="1" stop-color="#556450" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="226" y="456" width="1010" height="236" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="29"/></filter>
+    <filter id="cardShadow" x="366" y="91" width="715" height="543" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="18"/><feOffset dy="18"/><feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer><feBlend in2="SourceGraphic" mode="normal"/></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#71806E" stroke-opacity=".09"/></pattern>
+  </defs>
+  <rect width="1440" height="760" rx="26" fill="url(#bg)"/>
+  <rect width="1440" height="760" rx="26" fill="url(#grid)"/>
+  <circle cx="250" cy="154" r="189" fill="#DDE4D9" fill-opacity=".72"/>
+  <circle cx="1229" cy="592" r="250" fill="#E5DED0" fill-opacity=".48"/>
+  <path d="M165 598C344 530 511 515 717 554C919 592 1083 583 1275 482" stroke="#AFB9AA" stroke-opacity=".34" stroke-width="2" stroke-dasharray="3 12"/>
+  <ellipse cx="733" cy="576" rx="451" ry="78" fill="#586651" fill-opacity=".16" filter="url(#blur)"/>
+  <g opacity=".86" transform="translate(326 238) rotate(-8 123 172)">
+    <path d="M31 43C31 23 47 7 67 7H238L276 45V347C276 367 260 383 240 383H67C47 383 31 367 31 347V43Z" fill="#CFD8CC"/>
+    <path d="M31 35C31 15 47 0 67 0H238L276 38V340C276 360 260 376 240 376H67C47 376 31 360 31 340V35Z" fill="#F9F8F1" stroke="#D8DBD1" stroke-width="2"/>
+    <path d="M238 0V27C238 33 243 38 249 38H276" fill="#E9EBE2"/>
+    <rect x="61" y="70" width="117" height="9" rx="4.5" fill="#D8DED3"/>
+    <rect x="61" y="98" width="165" height="6" rx="3" fill="#E4E5DC"/>
+    <rect x="61" y="116" width="146" height="6" rx="3" fill="#E4E5DC"/>
+    <rect x="61" y="158" width="154" height="85" rx="7" fill="#EFF1E9"/>
+    <path d="M78 219L103 190L126 204L155 175L197 215" stroke="#789076" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="103" cy="190" r="5" fill="#B78F62"/><circle cx="155" cy="175" r="5" fill="#B78F62"/>
+    <rect x="61" y="270" width="154" height="6" rx="3" fill="#E4E5DC"/><rect x="61" y="288" width="132" height="6" rx="3" fill="#E4E5DC"/>
+  </g>
+  <g filter="url(#cardShadow)">
+    <path d="M510 154C510 136 525 121 543 121H947L1006 180V539C1006 557 991 572 973 572H543C525 572 510 557 510 539V154Z" fill="url(#paper)" stroke="#D7D8CF" stroke-width="2"/>
+    <path d="M947 121V167C947 174 953 180 960 180H1006" fill="#E9E8DE"/>
+    <circle cx="561" cy="166" r="16" fill="#496850"/><text x="555" y="173" fill="#FFF" font-family="Georgia,serif" font-size="24" font-style="italic">l</text>
+    <text x="591" y="170" fill="#52554D" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3">LOOM</text>
+    <rect x="847" y="155" width="117" height="26" rx="13" fill="#E8EEE5"/><circle cx="862" cy="168" r="4" fill="#678568"/><text x="873" y="172" fill="#63735F" font-family="Arial,sans-serif" font-size="9">IN SYNC</text>
+    <path d="M561 205H956" stroke="#E8E7DE"/>
+    <text x="561" y="236" fill="#85867D" font-family="Arial,sans-serif" font-size="9" letter-spacing="2">PROJECT SPACE</text>
+    <text x="561" y="277" fill="#272821" font-family="Georgia,serif" font-size="31">Field notes</text>
+    <circle cx="735" cy="266" r="4" fill="#769276"/>
+    <rect x="561" y="302" width="394" height="1" fill="#E7E6DD"/>
+    <text x="561" y="332" fill="#7B7D73" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.5">SHARED NOTES</text>
+    <rect x="561" y="348" width="365" height="67" rx="6" fill="#F4F3EC" stroke="#E9E8E0"/>
+    <text x="579" y="374" fill="#3C4138" font-family="Georgia,serif" font-size="16">The next useful question</text>
+    <text x="579" y="395" fill="#8C8D83" font-family="Arial,sans-serif" font-size="9">A shared document, ready for another thought.</text>
+    <rect x="561" y="430" width="189" height="96" rx="6" fill="#FAF9F4" stroke="#E9E8E0"/>
+    <text x="578" y="452" fill="#8A8B81" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">TO DO</text>
+    <circle cx="580" cy="472" r="5" stroke="#A9AA9F"/><rect x="592" y="469" width="126" height="5" rx="2.5" fill="#D8D9D0"/>
+    <circle cx="580" cy="490" r="5" stroke="#A9AA9F"/><rect x="592" y="487" width="106" height="5" rx="2.5" fill="#D8D9D0"/>
+    <circle cx="580" cy="508" r="5" stroke="#A9AA9F"/><rect x="592" y="505" width="116" height="5" rx="2.5" fill="#D8D9D0"/>
+    <rect x="762" y="430" width="193" height="96" rx="6" fill="#EFF2EB" stroke="#E0E5DC"/>
+    <circle cx="790" cy="477" r="19" fill="#E1E9DD"/><text x="783" y="484" fill="#5C765D" font-family="Georgia,serif" font-size="21" font-style="italic">l</text>
+    <text x="819" y="466" fill="#7E8677" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">AGENT TEAM</text>
+    <text x="819" y="482" fill="#41473D" font-family="Georgia,serif" font-size="12">First pass,</text><text x="819" y="498" fill="#41473D" font-family="Georgia,serif" font-size="12">then your call.</text>
+  </g>
+  <g transform="translate(420 405)">
+    <path d="M0 19L72 0L144 19L72 39L0 19Z" fill="#789177"/>
+    <path d="M0 19L72 39V101L0 81V19Z" fill="url(#green)"/>
+    <path d="M144 19L72 39V101L144 81V19Z" fill="#3F5B47"/>
+    <path d="M24 37L72 51L119 37" stroke="#A9BCA2" stroke-opacity=".7" stroke-width="2"/>
+    <text x="50" y="76" fill="#F4F3EC" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1">PEOPLE</text>
+  </g>
+  <g transform="translate(897 484)">
+    <path d="M0 19L72 0L144 19L72 39L0 19Z" fill="#D6BD9B"/>
+    <path d="M0 19L72 39V101L0 81V19Z" fill="url(#gold)"/>
+    <path d="M144 19L72 39V101L144 81V19Z" fill="#9E7953"/>
+    <path d="M24 37L72 51L119 37" stroke="#F0DFC4" stroke-opacity=".75" stroke-width="2"/>
+    <text x="53" y="76" fill="#FFF9EE" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1">AGENTS</text>
+  </g>
+  <g transform="translate(1077 255)">
+    <circle cx="60" cy="60" r="59" fill="#F5F3EC" stroke="#D7DAD0" stroke-width="2"/>
+    <circle cx="60" cy="60" r="43" fill="#E8EDE5" stroke="#D2D9CE"/>
+    <circle cx="60" cy="60" r="26" fill="#DCE6DA"/>
+    <circle cx="60" cy="60" r="10" fill="#59745C"/>
+    <circle cx="60" cy="11" r="5" fill="#B38C61"/><circle cx="101" cy="88" r="5" fill="#718B70"/><circle cx="17" cy="84" r="5" fill="#B57E6F"/>
+    <path d="M60 16L60 50M96 85L69 65M22 81L51 64" stroke="#AEB8AA" stroke-width="1.5" stroke-dasharray="3 4"/>
+  </g>
+  <text x="92" y="687" fill="#687565" font-family="Arial,sans-serif" font-size="10" letter-spacing="2">A PLACE FOR THE WORK BETWEEN PEOPLE</text>
+  <text x="1299" y="688" text-anchor="end" fill="#85887E" font-family="Arial,sans-serif" font-size="10">LOOM  ·  SHARED WORK, IN SYNC</text>
+</svg>
